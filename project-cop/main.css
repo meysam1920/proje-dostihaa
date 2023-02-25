@@ -118,4 +118,23 @@ body {
     flex-direction: column;
     width: 250px;
     height: 410px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 240px;
+    margin-top:30px ;
+}
+.main-cart img {
+    width: 100%;
+    height: 210px;
+    margin-bottom: 30px;
+}
+.main-cart span {
+    margin-bottom: 10px;
+    color: #61667d;
 }
