@@ -109,5 +109,13 @@ body {
     display: inline-block;
     width: 255px;
     height: 420px;
-    border-radius: 20px;
+    border-radius: 17px;
+    background-color: #fff;
 } 
+
+.main-cart {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 410px;
+}
