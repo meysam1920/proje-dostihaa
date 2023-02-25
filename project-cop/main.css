@@ -9,23 +9,21 @@ body {
 .main-header {
     display: block;
     width: 100%;
-    height: 60px;
+    height: auto;
 }
 .navbar {
     display: flex;
     background-color: #494d61;
-    width: 100%;
     height: 16;
     align-items: center;
     justify-content: space-between;
 }
 .navbar-menu {
     width: 20%;
-    height: auto;
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-right: 300px ;
+    padding-right: 330px ;
 }
 .navbar-menu a {
     text-decoration: none;
@@ -51,4 +49,38 @@ body {
     object-fit: contain;
     width: 50px;
     height: 50px;
+}
+.main-logo {
+    display: block;
+    height: 240px;
+    background-color: #fff;
+}
+.logo{
+    height: 160px;
+}
+.menu {
+    display: flex;
+    height: 70px;
+    border-top: 1px solid #f0efef;
+    border-bottom: 5px solid #f0efef;
+    align-items: center;
+    padding-right: 400px;
+}
+.menu ul {
+    display: flex;
+    width: fit-content;
+    height: 70px;
+    list-style: none;
+}
+.menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    border-right: 1px solid #f0efef;
+    border-left: 1px solid #f0efef;
+}
+.menu a {
+    text-decoration: none;
+    color:#494d61;
+    font-weight: bold;
 }
