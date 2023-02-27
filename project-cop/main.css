@@ -160,12 +160,17 @@ body {
     font-weight: bold;
     font-size: 15px;
 }
+
 .container-baners {
     display: block;
     width: 100%;
     height: 600px;
     margin: 40px 20px;
 }
-.main-baner {
-    display: ;
+.main-baners {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
 }
