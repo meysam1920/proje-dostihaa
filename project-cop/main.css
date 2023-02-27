@@ -181,3 +181,6 @@ body {
     height: 210px;
     border-radius: 13px;
 }
+#baner-small1 {
+    background: url('./imges/banner/poster\ 3.jpeg') center/cover  ;
+}
