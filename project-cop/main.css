@@ -144,7 +144,7 @@ body {
 }
 .cart-button {
     display: flex;
-    flex-direction: column;
+    flex-direction:  column;
 }
 .main-cart span {
     margin-bottom: 5px;
@@ -165,7 +165,7 @@ body {
     display: block;
     width: 100%;
     height: 600px;
-    margin: 40px 20px;
+    margin: 10px;
 }
 .main-baners {
     display: flex;
@@ -195,4 +195,27 @@ body {
     align-items: center;
     padding: 8px 13px;
     color: #fff;
+}
+.baner-button:hover {
+    background-color: #fff;
+    color: #565555;
+}
+#baner-big1 {
+    width: 610px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#baner-big1 p {
+    margin-left: 60px;
+}
+.banner-texts {
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: bold;
+}
+.text-container {
+    display: flex;
 }
