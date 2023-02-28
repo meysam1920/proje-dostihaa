@@ -199,6 +199,7 @@ body {
 .baner-button:hover {
     background-color: #fff;
     color: #565555;
+    cursor: pointer;
 }
 #baner-big1 {
     width: 610px;
@@ -228,5 +229,46 @@ body {
 .section3-conainer {
     display: flex;
     width: 100%;
+    margin: 0 25%;
+    margin-bottom: 30px;
     flex-direction: column;
+}
+.title-section3 {
+    width: 100%;
+    direction: rtl;
+    margin-bottom: 15px;
+}
+.section3-titile-tag-a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #34353a;
+}
+.section3-titile-tag-a h4 {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section3-contaner-carts {
+    display: flex;
+    width: 100%;
+}
+.section3-cart {
+    display: block;
+    width: 356px;
+    height: 360px;
+    border: 2px solid #f3f3f3;
+    border-radius: 2px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.section3-cart-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.section3-cart-title {
+    font-weight: bold;
+    color: #242424;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
