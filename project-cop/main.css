@@ -361,7 +361,6 @@ body {
     background: #363636;
     align-items: center;
     padding-top: 30px;
-    padding-right: 30px;
 }
 .footer-title-section {
     display: flex;
@@ -396,13 +395,14 @@ body {
 .footer-cart-img span {
     margin-right: 10px;
 }
-.footer-cart-img span:hover {
+.footer-section-cart span:hover {
     color: #ee2d58;
 }
 .footer-cart-img img {
     width: 80px;
     height: 80px;
 }
+
 .footer-button {
     display: flex;
     align-items: center;
